@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPause,  faPlay,faArrowsRotate, faL} from '@fortawesome/free-solid-svg-icons'
+import { faPause,  faPlay,faArrowsRotate} from '@fortawesome/free-solid-svg-icons'
 import { breakTime1 } from "./App";
 import alarm from "./assets/alarm.wav" 
 export default function  CountDown ({ minutes , seconds  }){
